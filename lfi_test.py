@@ -115,5 +115,5 @@ def test_lfi(domain, lfi_paths):
 if __name__ == "__main__":
     banner()
     domain = input("Enter the domain to scan (e.g., http://example.com): ")
-    lfi_paths = read_lfi_paths('list.list1')
+    lfi_paths = read_lfi_paths('path-list1.txt')
     test_lfi(domain, lfi_paths)
